@@ -12,7 +12,7 @@ const quotation =
 
 Los Template Strings son una característica de ES6, que permite:
 
-1. Colocar expresiones dentro de corchetes con una signo de dólar antepuesto. Por ejemplo: `"Variable 1: ${variable1}"`.
+1. Colocar expresiones dentro de llaves con una signo de dólar antepuesto. Por ejemplo: `"Variable 1: ${variable1}"`.
 2. Crear strings de varias líneas.
 
 Por ejemplo:
