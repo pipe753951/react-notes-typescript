@@ -1,5 +1,6 @@
 import "./style.css";
-import "./01-bases/03-02-interface";
+
+import "./01-bases/04-02-arrays";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
