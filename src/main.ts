@@ -1,6 +1,6 @@
 import "./style.css";
 
-import "./01-bases/06-obj-destructuring";
+import "./01-bases/07-array-destructuring";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
