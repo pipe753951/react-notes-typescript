@@ -1,6 +1,6 @@
 import "./style.css";
 
-import "./01-bases/05-02-functions-with-multiple-returns";
+import "./01-bases/06-obj-destructuring";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
