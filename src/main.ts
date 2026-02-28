@@ -1,6 +1,6 @@
 import "./style.css";
 
-import "./01-bases/07-02-array-destructuring-homework";
+import "./01-bases/08-imp-exp";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

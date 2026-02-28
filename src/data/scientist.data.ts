@@ -1,4 +1,4 @@
-type Area = "Biology" | "Physics";
+export type Area = "Biology" | "Physics";
 
 // Presenta problemas
 // enum Area2 {
@@ -6,13 +6,13 @@ type Area = "Biology" | "Physics";
 //   Biology = "Biology",
 // }
 
-interface Scientist {
+export interface Scientist {
   id: number;
   name: string;
   area: Area;
 }
 
-const scientists: Scientist[] = [
+export const scientists: Scientist[] = [
   {
     id: 1,
     name: "Galilei",
@@ -44,3 +44,5 @@ const scientists: Scientist[] = [
     area: "Biology",
   },
 ];
+
+export default scientists;
