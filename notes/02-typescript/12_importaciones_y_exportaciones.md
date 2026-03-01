@@ -12,7 +12,7 @@ Para exportar hay dos maneras:
 
 Para exportar algo, antes de declararlo, se añade la palabra reservada `export`. Por ejemplo:
 
-```tsx
+```ts
 export interface Scientist {
   // ...
 }
@@ -22,7 +22,7 @@ export interface Scientist {
 
 Para hacer una exportación por defecto, al final del archivo de código se utiliza las palabras reservadas `export default` más lo que se desea exportar. Por ejemplo:
 
-```tsx
+```ts
 const scientists: Scientist[] = [
   // ...
 ];
@@ -42,6 +42,6 @@ Hay dos formas de importar, que suele ir combinadas, pero antes de cualquiera de
 
 Por ejemplo:
 
-```tsx
+```ts
 import scientists, { type Scientist } from "../data/scientist.data";
 ```

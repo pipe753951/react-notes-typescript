@@ -4,7 +4,7 @@
 
 Para especificar los tipos de datos en una función declarada de TypeScript, luego de indicar los parámetros, se indica el tipo de dato. Por ejemplo:
 
-```tsx
+```ts
 function greet(name: string): string {
   return `Hola ${name}`;
 }

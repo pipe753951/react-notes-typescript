@@ -4,7 +4,7 @@
 
 Es propio de TypeScript, consiste en datos que se permite utilizar. Por ejemplo:
 
-```tsx
+```ts
 type Area = "Biology" | "Physics";
 ```
 
@@ -16,7 +16,7 @@ Consiste en otros tipos de datos que se permite utilizar en TypeScript. A difere
 
 Por ejemplo:
 
-```tsx
+```ts
 enum Area2 {
   Physics = "Physics",
   Biology = "Biology",

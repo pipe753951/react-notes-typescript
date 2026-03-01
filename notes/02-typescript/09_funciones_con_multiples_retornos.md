@@ -4,7 +4,7 @@
 
 Las funciones que retornan objetos para simplificarse, deben envolverse dentro de paréntesis. Esto es porque, puede confundirse con el cuerpo de funciones al no hacerlo. Por ejemplo:
 
-```tsx
+```ts
 interface User {
   uid: string;
   username: string;
@@ -19,7 +19,7 @@ En una función tipo flecha de TypeScript, una forma de especificar el tipo de d
 
 La otra forma es poner como tipo de dato en la variable que indica la función, los tipos de datos de la función, el valor de retorno. Y luego, dar la función como tal.
 
-```tsx
+```ts
 // Forma 1.
 const getUser = (): User => ({ uid: "ABC-123", username: "math123" });
 
@@ -32,7 +32,7 @@ const getUser2: () => User = () => ({
 
 ## Formas de declarar funciones expresadas
 
-```tsx
+```ts
 // 1ra. Usar function.
 myNumbers.forEach(function (number) {
   console.log(number);

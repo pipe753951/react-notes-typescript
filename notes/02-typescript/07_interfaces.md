@@ -2,7 +2,7 @@
 
 Las interfaces de TypeScript es una característica del lenguaje que permite definir cómo va a ser un objeto. Son parecidos a los objetos, pero comúnmente se nombran usando el estilo UpperCamelCase y no llevan un signo igual al definirse. Además, las propiedades se definen por tipo de datos y no por datos. Y es posible definir propiedades opcionales indicando un signo de pregunta después del nombre de la propiedad. Por ejemplo:
 
-```tsx
+```ts
 interface Person {
   firstName: string;
   lastName: string;
@@ -18,7 +18,7 @@ Con las interfaces es posible establecer la forma de cómo va a ser los objetos 
 
 1. La forma menos común es declarar la “interfaz” directamente:
 
-   ```tsx
+   ```ts
    interface Person {
      // ...
      address?: { city: string; nation: string };
@@ -27,7 +27,7 @@ Con las interfaces es posible establecer la forma de cómo va a ser los objetos 
 
 2. La forma más común es declarar una interfaz aparte, e indicarla en la interfaz donde se desea utilizar:
 
-   ```tsx
+   ```ts
    interface Person {
      firstName: string;
      lastName: string;

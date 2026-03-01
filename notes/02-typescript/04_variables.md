@@ -2,7 +2,7 @@
 
 Son el tipo de variables que se suelen crear:
 
-```tsx
+```ts
 let firstName = "Antoine";
 let lastName = "de Saint-Exupery";
 ```
@@ -29,6 +29,6 @@ Se puede resaltar dos puntos:
 
 > **Nota:** Para indicar manualmente el tipo de dato de una variable, se nombra luego de dos puntos luego del nombre de una variable:
 
-```tsx
+```ts
 const firstName: string = "Antoine";
 ```

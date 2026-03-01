@@ -2,7 +2,7 @@
 
 A la hora de incluir un apóstrofo en un string con comillas simples o comillas dobles en un string con comillas doble, producirá errores en la sintaxis del código. Para resolverlo se puede declarar el valor del string con comillas que no sean las que indican en el valor ó, anteponer una barra invertida (`\`):
 
-```tsx
+```ts
 const apostrophe = "This is a apostrophe: '";
 const quotation =
   '"El pasado nos da las claves para entender el hoy" - Pilar Lozano';
@@ -17,7 +17,7 @@ Los Template Strings son una característica de ES6, que permite:
 
 Por ejemplo:
 
-```tsx
+```ts
 const firstName = "William";
 const lastName = "Shakespeare";
 

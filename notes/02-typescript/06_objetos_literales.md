@@ -2,7 +2,7 @@
 
 Los objetos literales son formas rápidas de declarar objetos en JavaScript. Están entre llaves, y cada propiedad se declara con el nombre, dos puntos, y el valor. Por ejemplo:
 
-```tsx
+```ts
 const galilei = {
   firstName: "Galileo",
   lastName: "Galilei",
